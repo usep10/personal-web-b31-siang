@@ -1,210 +1,263 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* navbar */
 nav {
-    display: flex;
-    background-color: #f4f3f3;
-    height: 10vh;
+  display: flex;
+  background-color: #f4f3f3;
+  height: 10vh;
 }
 
 nav div {
-    flex: 50%;
-    align-items: center;
-    display: flex;
+  flex: 50%;
+  align-items: center;
+  display: flex;
 }
 
 .left-side {
-    background-color: #F4F3F3;
-    padding-left: 90px;
+  background-color: #F4F3F3;
+  padding-left: 90px;
 }
 
 .right-side {
-    background-color: #F4F3F3;
-    padding-right: 90px;
-    display: flex;
-    justify-content: flex-end;
+  background-color: #F4F3F3;
+  padding-right: 90px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 nav ul {
-    list-style-type: none;
-    margin-left: 40px;
+  list-style-type: none;
+  margin-left: 40px;
 }
 
 nav ul li {
-    display: inline;
-    margin-left: 40px;
+  display: inline;
+  margin-left: 40px;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 nav .right-side a {
-    font-size: 15px;
-    background-color: #111727;
-    color: white;
-    text-decoration: none;
-    padding: 8px 20px;
-    border: none;
-    border-radius: 10px;
+  font-size: 15px;
+  background-color: #111727;
+  color: white;
+  text-decoration: none;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 10px;
 }
+
+/*contact form css */
 .main {
-    width: 350px;
-    margin-top: 60px;
+  width: 350px;
+  margin-top: 60px;
 }
 
 input {
-    font-family: 'Roboto', sans-serif;
-    width: 100%;
-    height: 40px;
-    font-weight: 400;
-    box-sizing: border-box;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    margin-top: 5px;
-    padding: 8px;
-    border: 1px solid rgba(233, 227, 227);
-    background: #f4f3f3;
-    resize: vertical;
-    box-shadow: 0px 0px 20px #00000040;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  height: 40px;
+  font-weight: 400;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  padding: 8px;
+  border: 1px solid rgba(233, 227, 227);
+  background: #f4f3f3;
+  resize: vertical;
+  box-shadow: 0px 0px 20px #00000040;
 }
 
 #subject {
-    height: 40px;
-    box-shadow: 0px 0px 20px #00000040;
+  height: 40px;
+  box-shadow: 0px 0px 20px #00000040;
 }
 
 label {
-    font-family: 'PT Sans', sans-serif;
-    font-size: 15px;
-    font-weight: 400;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
 }
 
 .main h1 {
-    font-family: 'PT Sans', sans-serif;
-    font-size: 25px;
-    font-weight: 400;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
 }
 
 select {
-    width: 100%;
-    font-weight: 400;
-    padding: 8px;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    background: #f4f3f3;
-    border: 1px solid #c4c4c4;
-    border-radius: 8px;
+  width: 100%;
+  font-weight: 400;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  background: #f4f3f3;
+  border: 1px solid #c4c4c4;
+  border-radius: 8px;
 }
 
 textarea {
-    height: 100px;
-    box-sizing: border-box;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    margin-top: 5px;
-    padding: 8px;
-    border: 1px solid rgb(233, 227, 227);
-    background: #f4f3f3;
-    resize: vertical;
-    box-shadow: 0px 0px 20px #00000040;
+  height: 100px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  padding: 8px;
+  border: 1px solid rgb(233, 227, 227);
+  background: #f4f3f3;
+  resize: vertical;
+  box-shadow: 0px 0px 20px #00000040;
 }
 
 button {
-    margin-top: 30px;
-    margin-bottom: 50px;
-    padding: 8px 30px;
-    border-radius: 20px;
-    border: none;
-    color: white;
-    background-color: #111727;
-    font-size: 15px;
-    cursor: pointer;
-    font-family: 'PT Sans', sans-serif;
-    font-size: 15px;
-    font-weight: 400;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding: 8px 30px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background-color: #111727;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
 }
 
 .oke-button {
-    text-align: right;
+  text-align: right;
 }
 
+/* end of contact form css */
 /* Card Profile*/
+.personal {
+  display: flex;
+  height: 93vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.personal .container-content {
+  display: flex;
+  width: 80%;
+  background-color: cyan;
+}
+
+.personal .left {
+  flex: 40%;
+  display: flex;
+  background-color: darkorange;
+}
+
 .card {
-    border: 1px solid black;
-    width: 450px;
-    padding: 15px;
-    border-radius: 15px;
-    box-shadow: 0px 0px 20px #00000040;
+  border: 1px solid black;
+  width: 450px;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px #00000040;
 }
 
-.card .image img{
-    width: 100%;
-    border-radius: 8px;
-}
-.card .content table{
-    width: 100%;
-    border-collapse: collapse;
-    border: 1px solid black;
-}
-.card .header h1{
-    text-align: left;
-    margin: 10px 0;
-}
-.card .content p{
-    text-align: left;
-    color: rgba(0,0,0, 0.6);
-}
-.card .content table tr th{
-    font-weight: 600;
-    padding: 5px;
-    text-align: center;
-}
-.card .content table tr td{
-    font-weight: 400;
-    padding: 5px;
-    text-align: center;
-}
-.personal{
-    display: flex;
-    height: 93vh;
-    align-items: center;
-    justify-content: center;
+.card .image img {
+  width: 100%;
+  border-radius: 8px;
+  text-align: center;
 }
 
-.personal .container-content{
-    display: flex;
-    width: 80%;
+.card .content table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
 }
-.personal .left{
-    flex: 40%;
+
+.card .header h1 {
+  text-align: left;
+  margin: 10px 0;
 }
-.personal .right{
-    flex: 60%;
-    padding-left: 40px;
-    display: flex;
+
+.card .content p {
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
 }
-.personal .right .skill{
-    display: flex;
+
+.card .content table tr th {
+  font-weight: 600;
+  padding: 5px;
+  text-align: center;
 }
-.skill, .skill p{
-    margin-top: 20px;
+
+.card .content table tr td {
+  font-weight: 400;
+  padding: 5px;
+  text-align: center;
 }
+
+.personal .right {
+  flex: 60%;
+  padding-left: 40px;
+  position: relative;
+  display: flex;
+}
+
+.personal .right .skill {
+  display: flex;
+}
+
+/* end of card profile */
 
 /* Blog Form */
+.blog{
+  background-color: #F8F8F8;
+}
 .blog-form {
   padding: 50px 0;
   display: flex;
   justify-content: center;
+  background-color: #E3E7EB;
 }
 
 .blog-form .form-container {
   width: 500px;
+}
+
+.form-container .input-split {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.dateinput {
+  flex: 50%;
+  flex-direction: column;
+}
+
+.form-container .outer-ceklis {
+  margin-top: 5px;
+}
+
+.ceklis {
+  display: flex;
+  width: 100%;
+}
+
+.ceklis input[type=checkbox] {
+  width: 20px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+.ceklis label {
+  margin-right: 10px;
+  font-size: 15px;
+  font-weight: 200;
 }
 
 .blog-form .form-container h1 {
@@ -267,127 +320,70 @@ select {
   margin-top: 50px;
   padding: 8px 20px;
   font-size: 17px;
-  background: #ec4d37;
-  border-radius: 8px;
+  background: #111727;
+  border-radius: 15px;
   border: none;
   color: #fff;
   cursor: pointer;
 }
-
-.blog hr {
-  border: 1px solid #dbdbdb;
-  width: 80%;
-  margin-right: auto;
-  margin-left: auto;
-}
-
 /* Blog list */
-.blog .blog-list {
-  margin-top: 80px;
+.blog-list h1{
+  text-align: center;
+  margin: 40px 0px;
+}
+.blog-list .row{
+  /* margin-top: 80px; */
   margin-bottom: 80px;
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  /* align-items: center; */
+  flex-direction: row;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  background-color: aqua;
 }
-
-.blog .blog-list .blog-list-item {
-  width: 80%;
-  padding: 15px;
-  margin-bottom: 20px;
-  border: 2px solid #dbdbdb;
+.card-blog{
+  flex: 0 1 24%;
+  margin: 20px;
   border-radius: 8px;
-  display: flex;
+  background-color: white;
+  box-shadow: 0px 0px 20px #00000040;
 }
-
-.blog .blog-list .blog-list-item .blog-image {
-  flex: 1;
-}
-
-.blog .blog-list .blog-list-item .blog-image img {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-}
-
-.blog .blog-list .blog-list-item .blog-content {
-  padding-left: 20px;
+.card-blog article{
   flex: 2;
 }
-
-.blog .blog-list .btn-group {
-  text-align: right;
-  margin-bottom: 20px;
+.card-blog article h2, span {
+  padding: 8px;
+  text-align: left;
 }
-
-.blog .blog-list .btn-group .btn-edit {
-  padding: 5px 10px;
-  border: 0;
-  border-radius: 4px;
-  background: #dbdbdb;
+.card-blog article p{
+  padding: 8px;
 }
-
-.blog .blog-list .btn-group .btn-post {
-  padding: 5px 10px;
-  border: 0;
-  border-radius: 4px;
-  background: #ec4d37;
-  color: #fff;
+.card-blog .image-blog img{
+  padding: 8px;
+  border-radius: 8%;
+  max-height: 220px;
+  width: auto;
 }
-
-.blog .blog-list h1 a {
-  text-decoration: none;
-  color: #000000;
+.card-logo-blog img{
+    align-items: center;
+    display: inline;
+    padding: 8px;
+    margin-left: 5px;
+    width: 45px;
 }
-
-.blog .blog-list .detail-blog-content {
-  font-weight: 300;
-  font-size: 12px;
-  line-height: 20px;
-}
-
-.blog .blog-list .blog-list-item p {
-  margin-top: 20px;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 20px;
-  text-align: justify;
-}
-
-/* Blog Detail */
-.blog-detail {
+.tombol-card{
   display: flex;
-  justify-content: center;
+  flex-direction: row;
 }
-
-.blog-detail-container {
-  width: 80%;
-  margin: 40px 0;
-}
-
-.blog-detail-container img {
-  width: 100%;
-}
-
-.blog-detail-container h1 {
-  font-style: normal;
-  font-weight: 800;
-  font-size: 44px;
-  line-height: 120%;
-  margin-bottom: 15px;
-}
-
-.blog-detail-container .author {
-  font-weight: 100;
-  font-size: 20px;
-  line-height: 120%;
-  margin-bottom: 20px;
-}
-
-.blog-detail-container p {
-  margin-top: 40px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 140%;
-  text-align: justify;
+.tombol-card button{
+  flex: 50%;
+  /* width: 50%; */
+  flex-direction: column;
+  margin: 8px 5px;
+  font-size: 17px;
+  background: #111727;
+  border-radius: 15px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
 }

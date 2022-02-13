@@ -148,9 +148,16 @@ button {
 }
 
 .container-content {
+  justify-content: center;
+  align-items: center;
   display: flex;
   width: 80%;
-  /* background-color: cyan; */
+  height: auto;
+  background-color: white;
+  border: 1px solid white;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px #00000040;
 }
 
 .personal .left {

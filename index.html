@@ -10,31 +10,30 @@
 </head>
 
 <body>
-    <nav>
-        <div class="left-side">
-            <a href="index.html">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
                 <img src="assets/logo.png" alt="">
             </a>
-            <ul>
-                <li style="list-style: none;">
-                    <a href="index.html">Home</a>
-                </li>
-                <li style="list-style: none" ;>
-                    <a href="blog.html">My Project</a>
-                </li>
-            </ul>
-        </div>
-        <div class="right-side">
-            <ul>
-                <li>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <a class="nav-link" href="blog.html">Add Project</a>
+                    </li>
+                </ul>
+                <form class="d-flex right-side justify-content-end">
                     <a href="contact.html">Contact</a>
-                </li>
-            </ul>
+                </form>
+            </div>
         </div>
     </nav>
 
     <div class="container d-flex flex-column min-vh-100 justify-content-center align-items-center">
-        <div class="row">
+        <div class="row container-content">
             <div class="col-sm-6">
                 <div class="card">
                     <div class="card-body">
@@ -93,6 +92,34 @@
             </div>
         </div>
     </div>
+
+    <div class="blog-list">
+        <h1>My Project</h1>
+        <!-- dynamic content would be here -->
+        <div class="row" id="contents">
+            <div class="card-blog">
+                <div class="image-blog">
+                    <img src="assets/blog-img.png" alt="image of a kitten" />
+                </div>
+                <article>
+                    <h2>Tutorial javascript</h2>
+                    <span>Durasi : 3 bulan</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="card-logo-blog">
+                        <img src="assets/playstore.png" alt="">
+                        <img src="assets/android.png" alt="">
+                        <img src="assets/java.png" alt="">
+                    </div>
+                    <div class="tombol-card">
+                        <button>edit</button>
+                        <button>delete</button>
+                    </div>
+                </article>
+            </div>
+
+        </div>
+    </div>
+
 </body>
 
 </html>

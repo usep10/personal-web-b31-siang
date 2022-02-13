@@ -138,6 +138,7 @@ button {
 }
 
 /* end of contact form css */
+
 /* Card Profile*/
 .personal {
   display: flex;
@@ -146,7 +147,7 @@ button {
   align-items: center;
 }
 
-.personal .container-content {
+.container-content {
   display: flex;
   width: 80%;
   /* background-color: cyan; */
@@ -160,7 +161,7 @@ button {
   /* background-color: darkorange; */
 }
 
-.card {
+.card-dalam {
   border: 1px solid black;
   width: 450px;
   padding: 15px;
@@ -168,35 +169,35 @@ button {
   box-shadow: 0px 0px 20px #00000040;
 }
 
-.card .image img {
+.card-dalam .image img {
   width: 100%;
   border-radius: 8px;
   text-align: center;
 }
 
-.card .content table {
+.divluar .content table {
   width: 100%;
   border-collapse: collapse;
   border: 1px solid black;
 }
 
-.card .header h1 {
+.divluar .header h1 {
   text-align: left;
   margin: 10px 0;
 }
 
-.card .content p {
+.divluar .content p {
   text-align: left;
   color: rgba(0, 0, 0, 0.6);
 }
 
-.card .content table tr th {
+.divluar .content table tr th {
   font-weight: 600;
   padding: 5px;
   text-align: center;
 }
 
-.card .content table tr td {
+.divluar .content table tr td {
   font-weight: 400;
   padding: 5px;
   text-align: center;
@@ -211,6 +212,65 @@ button {
 
 .personal .right .skill {
   display: flex;
+}
+
+.second-div {
+  margin-top: 30px;
+  text-align: left;
+  /* background-color: tomato; */
+}
+
+.second-div .tombol a {
+  display: inline;
+  font-size: 18px;
+  background-color: #111727;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  /* margin-left: 30px; */
+}
+
+.second-div .tombol img {
+  display: inline;
+  vertical-align: middle;
+  width: 25px;
+}
+
+.text-cv {
+  margin-top: 15px;
+}
+
+.card-2 {
+  width: 50%;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px #00000040;
+}
+
+.card-2 img {
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+  object-fit: fill;
+}
+
+.card-2 .container {
+  margin-top: 2px;
+  padding: 15px 0px;
+}
+
+.sosmed {
+  margin-top: 30px;
+  /* margin-left: 20px; */
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.sosmed img {
+  text-align: left;
+  display: inline;
+  margin-left: 5px;
+  width: 35px;
 }
 
 /* end of card profile */

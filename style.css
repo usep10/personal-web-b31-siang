@@ -149,13 +149,15 @@ button {
 .personal .container-content {
   display: flex;
   width: 80%;
-  background-color: cyan;
+  /* background-color: cyan; */
 }
 
 .personal .left {
   flex: 40%;
   display: flex;
-  background-color: darkorange;
+  justify-content: flex-end;
+  align-items: center;
+  /* background-color: darkorange; */
 }
 
 .card {
@@ -214,9 +216,10 @@ button {
 /* end of card profile */
 
 /* Blog Form */
-.blog{
+.blog {
   background-color: #F8F8F8;
 }
+
 .blog-form {
   padding: 50px 0;
   display: flex;
@@ -326,56 +329,67 @@ select {
   color: #fff;
   cursor: pointer;
 }
+
 /* Blog list */
-.blog-list h1{
+.blog-list h1 {
   text-align: center;
   margin: 40px 0px;
 }
-.blog-list .row{
+
+.blog-list .row {
   /* margin-top: 80px; */
   margin-bottom: 80px;
   display: flex;
   /* align-items: center; */
   flex-direction: row;
-  justify-content:space-around;
+  justify-content: space-around;
   flex-wrap: wrap;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
-.card-blog{
+
+.card-blog {
   flex: 0 1 24%;
   margin: 20px;
   border-radius: 8px;
   background-color: white;
   box-shadow: 0px 0px 20px #00000040;
 }
-.card-blog article{
+
+.card-blog article {
   flex: 2;
 }
-.card-blog article h2, span {
+
+.card-blog article h2,
+span {
   padding: 8px;
   text-align: left;
 }
-.card-blog article p{
+
+.card-blog article p {
   padding: 8px;
 }
-.card-blog .image-blog img{
+
+.card-blog .image-blog img {
   padding: 8px;
   border-radius: 8%;
   max-height: 220px;
   width: auto;
 }
-.card-logo-blog img{
-    align-items: center;
-    display: inline;
-    padding: 8px;
-    margin-left: 5px;
-    width: 45px;
+
+.card-logo-blog img {
+  align-items: center;
+  display: inline;
+  padding: 8px;
+  margin-left: 5px;
+  width: 45px;
 }
-.tombol-card{
+
+.tombol-card {
   display: flex;
   flex-direction: row;
 }
-.tombol-card button{
+
+.tombol-card button {
   flex: 50%;
   /* width: 50%; */
   flex-direction: column;
@@ -386,4 +400,56 @@ select {
   border: none;
   color: #fff;
   cursor: pointer;
+}
+
+/* Blog Detail */
+.blog-detail {
+  display: flex;
+  justify-content: center;
+  background-color: #E3E7EB;
+}
+
+.blog-detail-container {
+  width: 80%;
+  margin: 40px 0;
+}
+
+.blog-detail-container .detail-jadwal-blog {
+  display: flex;
+}
+
+.detail-jadwal-blog .side-img {
+  flex: 55%;
+  /* background-color: aqua; */
+}
+
+.detail-jadwal-blog .side-jadwal {
+  flex: 45%;
+  background-color: green;
+}
+
+.blog-detail-container img {
+  max-height: auto;
+  width: 100%;
+}
+
+.blog-detail-container h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 120%;
+  margin-bottom: 15px;
+}
+
+.blog-detail-container p {
+  margin-top: 40px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 140%;
+  text-align: justify;
+}
+
+#test img {
+  margin-bottom: 20px;
 }

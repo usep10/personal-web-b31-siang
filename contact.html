@@ -2,6 +2,8 @@
 
 <head>
     <title>Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
@@ -9,67 +11,67 @@
 </head>
 
 <body>
-    <nav>
-        <div class="left-side">
-            <a href="index.html">
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
                 <img src="assets/logo.png" alt="">
             </a>
-            <ul>
-                <li style="list-style: none;">
-                    <a href="index.html" target="blank">Home</a>
-                </li>
-                <li style="list-style: none" ;>
-                    <a href="blog.html">Blog</a>
-                </li>
-            </ul>
-        </div>
-        <div class="right-side">
-            <ul>
-                <li>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <a class="nav-link" href="blog.html">Add Project</a>
+                    </li>
+                </ul>
+                <form class="d-flex right-side justify-content-end">
                     <a href="contact.html">Contact</a>
-                </li>
-            </ul>
+                </form>
+            </div>
         </div>
     </nav>
-    <center>
-        <div class="main">
-            <div>
-                <h1>GET IN TOUCH</h1>
-            </div>
-            <form action="" style="text-align: left;">
-                <div class="input-group">
-                    <label for="name">Nama</label>
-                    <input type="text" id="input-name" />
-                </div>
-                <div class="input-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" />
-                </div>
-                <div class="input-group">
-                    <label for="phone">Phone Number</label>
-                    <input type="text" placeholder="" id="phone">
-                </div>
-                <div>
-                    <label for="subject">Subject</label>
-                    <select name="" id="subject">
-                        <option></option>
-                        <option>Lets Talk</option>
-                        <option>Lets Collaboration</option>
-                        <option>I am Hiring</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="message">Your Message</label>
-                    <textarea name="" id="message" cols="39" rows="10">
-                    </textarea>
-                </div>
-                <div class="oke-button">
-                    <button type="button" onclick="showData()">Submit</button>
-                </div>
 
-            </form>
+    <div class="container-fluid">
+        <div class="row d-flex justify-content-center blog-form">
+            <h2 class="text-center">GET IN TOUCH</h2>
+            <div class="col-md-6">
+                <form class="row mb-3">
+                    <div class="col-12">
+                        <label for="name" class="form-label fw-bold">Name</label>
+                        <input type="text" class="form-control" id="input-name">
+                    </div>
+                    <div class="col-12">
+                        <label for="email" class="form-label fw-bold">Email</label>
+                        <input type="text" class="form-control" id="input-email">
+                    </div>
+                    <div class="col-12">
+                        <label for="phone" class="form-label fw-bold">Phone Number</label>
+                        <input type="text" class="form-control" id="input-phone">
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label fw-bold" for="subject">Subject</label>
+                        <select class="form-select" id="input-subject">
+                            <option selected>Choose...</option>
+                            <option value="1">Lets Talk</option>
+                            <option value="2">Lets Collaboration</option>
+                            <option value="3">I am Hiring</option>
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <label for="message" class="form-label fw-bold">Your Message</label>
+                        <textarea class="form-control h-75" id="input-message" rows="10"></textarea>
+                    </div>
+
+                    <div class="col-12 text-end">
+                        <button type="button" onclick="showData()" class="btn btn-dark">Submit</button>
+                    </div>
+                </form>
+            </div>
         </div>
-    </center>
+    </div>
     <script src="form.js"></script>
 </body>
 

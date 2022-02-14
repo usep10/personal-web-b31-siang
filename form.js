@@ -36,7 +36,7 @@ function showData() {
     let a = document.createElement("a")
     a.href = `mailto:${emailReceiver}?subject=${subject}&body=Hello nama saya ${name},
     ${subject}, ${message}, ini nomor telepon saya ${phone}`
-    // a.click()
+    a.click()
 
     let dataObject = {
         dataName: name,
